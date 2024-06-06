@@ -166,37 +166,7 @@ section#hero{
 
 /*productos*------------------*/
 
-/*.Deposito {
-    display: grid;
-    grid-template-columns: repeat(3, 80px);
-    grid-template-rows: 4;
-    gap: 110px;/* separacion entre cuadro y cuadro*/
-    /*justify-content: center; /* Centra horizontalmente */
-   /* align-content: center; /* Centra verticalmente */
-    
 
-  
-  
-  /*.cuadrado {
-    width: 180px;
-    height: 310px;
-    background-color: #ccc;
-    display: flex;
-    margin-left: -100px;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-  */
-
-  /*.informacion-de-productos p{
-    color: #fff;
-    margin-top: 340px;
-    margin-right: 130px;
-    font-size: 15px;
-    justify-content: center; /* Centra horizontalmente */
-   /* align-content: center; /* Centra verticalmente */
-  
-  
 
   .contenedor-card-b {
     display: flex;
@@ -209,12 +179,12 @@ section#hero{
     padding-top: 50px;
   }
   
-  .card-a-a, .card-b-b, .card-c-c, .card-d-d, .card-e-e, .card-f-f {
-  margin: 10px; /* Ajusta este margen para agregar separación entre las tarjetas */
+  .card-a-a, .card-b-b, .card-c-c {
+  margin: 5px; /* Ajusta este margen para agregar separación entre las tarjetas */
   }
   
-  .card-a-a, .card-b-b, .card-c-c, .card-d-d, .card-e-e, .card-f-f p {
-  margin-top: 190px; /* Empuja el párrafo hacia la parte inferior */
+  .card-a-a, .card-b-b, .card-c-c p {
+  
   color: rgb(255, 255, 255); /* Ajusta el color del texto si es necesario */
   text-align: center;
   }
@@ -222,7 +192,7 @@ section#hero{
   .card-a-a {
   
   width: 75%;
-  height: 254px;
+  height: 154px;
   border-radius: 30px;
   background: hsl(208, 100%, 89%);
   box-shadow: 15px 15px 30px rgb(25, 25, 25),
@@ -232,9 +202,9 @@ section#hero{
   }
   
   .card-b-b {
-  
+    margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
   width: 75%;
-  height: 254px;
+  height: 154px;
   border-radius: 30px;
   background: hsl(208, 100%, 89%);
   box-shadow: 15px 15px 30px rgb(25, 25, 25),
@@ -244,9 +214,9 @@ section#hero{
   }
   
   .card-c-c {
-  
+    margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
   width: 75%;
-  height: 254px;
+  height: 154px;
   border-radius: 30px;
   background: hsl(208, 100%, 89%);
   box-shadow: 15px 15px 30px rgb(25, 25, 25),
@@ -255,8 +225,29 @@ section#hero{
   
   }
 
+  .card-c-d {
+    margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+            -15px -15px 30px rgb(60, 60, 60);
   
-
+  
+  }
+  
+  .card-c-e {
+    margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+            -15px -15px 30px rgb(60, 60, 60);
+  
+  
+  }
 
   
 

@@ -1,0 +1,85 @@
+//productos card b
+
+.contenedor-card-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.card-a-a, .card-b-b, .card-c-c {
+margin: 5px; /* Ajusta este margen para agregar separación entre las tarjetas */
+}
+
+.card-a-a, .card-b-b, .card-c-c p {
+
+color: rgb(255, 255, 255); /* Ajusta el color del texto si es necesario */
+text-align: center;
+}
+
+.card-a-a {
+
+width: 75%;
+height: 154px;
+border-radius: 30px;
+background: hsl(208, 100%, 89%);
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+          -15px -15px 30px rgb(60, 60, 60);
+
+
+}
+
+.card-b-b {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+width: 75%;
+height: 154px;
+border-radius: 30px;
+background: hsl(208, 100%, 89%);
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+          -15px -15px 30px rgb(60, 60, 60);
+
+
+}
+
+.card-c-c {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+width: 75%;
+height: 154px;
+border-radius: 30px;
+background: hsl(208, 100%, 89%);
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+          -15px -15px 30px rgb(60, 60, 60);
+
+
+}
+
+.card-c-d {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+width: 75%;
+height: 154px;
+border-radius: 30px;
+background: hsl(208, 100%, 89%);
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+          -15px -15px 30px rgb(60, 60, 60);
+
+
+}
+
+.card-c-e {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+width: 75%;
+height: 154px;
+border-radius: 30px;
+background: hsl(208, 100%, 89%);
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+          -15px -15px 30px rgb(60, 60, 60);
+
+
+}
+
+
+

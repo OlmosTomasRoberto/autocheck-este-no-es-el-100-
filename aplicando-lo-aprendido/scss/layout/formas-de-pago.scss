@@ -1,0 +1,39 @@
+/*Forma de pago*/
+.t-pago{
+    height: calc(50vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+    font-size: 3rem;
+    margin-bottom: 30px;
+    
+    .cuadros_container2 {
+        /*aca tambien estan los cuadros de Formas de envios*/
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; /* Alinea los cuadros en la parte inferior */
+        margin-top: 50px; /* Margen superior para comenzar a bajar los cuadros */
+        
+      /*flex-wrap automatisa que no desborde nuestro body*/
+        flex-wrap: wrap;
+
+        .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            max-height: 500px; /* Ajusta esto al valor máximo de altura que desees */
+        
+            .carousel-inner img {
+                width: 100%;
+                height: auto; /* Mantiene la proporción de la imagen */
+                max-height: 500px; /* Asegura que las imágenes no excedan esta altura */
+                object-fit: cover; /* Recorta la imagen si es necesario para llenar el área */
+            }
+        }
+        
+      }
+ }

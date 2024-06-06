@@ -1,3 +1,330 @@
+@charset "UTF-8";
+.home {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.home .in-flex {
+  color: white;
+  flex: 1;
+  min-width: 300px;
+}
+.home .in-flex .in-flex:first-child {
+  flex: 2;
+  padding: 25px;
+  background-color: hsl(0, 0%, 0%);
+  margin: 20px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.home .in-flex .in-flex:first-child .in-flex div {
+  padding: 25px;
+  background-color: hsl(0, 0%, 0%);
+  margin: 20px;
+  border-radius: 10px;
+}
 
+/*HEADER*/
+header {
+  position: relative;
+  /*menu*/
+}
+header .bg-light {
+  background: rgb(255, 196, 0);
+  background: linear-gradient(90deg, rgba(255, 196, 0, 0.9640231092) 5%, rgba(255, 255, 255, 0.8603816527) 96%);
+}
+header .bg-light nav .navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+header .bg-light nav .navbar-light .navbar-nav .nav-link .navbar-light .navbar-nav .nav-link.disabled {
+  color: rgb(0, 0, 0);
+}
+header .bg-light nav .navbar-light .navbar-nav .nav-link .navbar-light .navbar-nav .nav-link.disabled a:hover {
+  color: orange;
+}
+
+/*Estilos globales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  /* Estilos del cuerpo de la página */
+}
+* body {
+  /* height: 100vh;*/
+  background-color: #1d1d1d;
+  /*
+  background-size: cover;/*justes para la imagen url*/
+  /*background-position: center;*/
+}
+
+/* Hero*/
+section#hero {
+  height: calc(30vh + 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+section#hero #hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contenedor-card-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.card-a-a, .card-b-b, .card-c-c {
+  margin: 5px; /* Ajusta este margen para agregar separación entre las tarjetas */
+}
+
+.card-a-a, .card-b-b, .card-c-c p {
+  color: rgb(255, 255, 255); /* Ajusta el color del texto si es necesario */
+  text-align: center;
+}
+
+.card-a-a {
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+.card-b-b {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+.card-c-c {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+.card-c-d {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+.card-c-e {
+  margin-top: 40px; /* Empuja el párrafo hacia la parte inferior */
+  width: 75%;
+  height: 154px;
+  border-radius: 30px;
+  background: hsl(208, 100%, 89%);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+/*Servicio*/
+/* Estilos para contenedor de cuadros */
+.cuadros_container {
+  /*aca tambien estan los cuadros de Formas de envios*/
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Alinea los cuadros en la parte inferior */
+  margin-top: 550px; /* Margen superior para comenzar a bajar los cuadros */
+  /*flex-wrap automatisa que no desborde nuestro body*/
+  flex-wrap: wrap;
+}
+
+.cuadrado-one {
+  flex-direction: row;
+}
+
+/* Estilos para cada cuadro */
+.cuadro-custom {
+  width: 450px;
+  height: 250px; /* Altura inicial de los cuadros */
+  margin-right: 10px; /* Espacio entre cuadros */
+  background-color: orange;
+  margin-top: -240px;
+}
+
+/* Estilos para contenedor de imagen */
+.imagen-container-custom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para contenedor interno de imagen */
+.inner-image-container-custom {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Estilos para la imagen dentro del contenedor */
+.inner-image-container-custom img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Estilos para etiqueta */
+.etiqueta {
+  position: absolute;
+  bottom: 5px; /* Distancia desde abajo del cuadro */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.contenedor-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.card-1, .card-2, .card-3 {
+  margin: 10px; /* Ajusta este margen para agregar separación entre las tarjetas */
+}
+.card-1 .card-1 p, .card-1 .card-2 p, .card-1 .card-3 p, .card-2 .card-1 p, .card-2 .card-2 p, .card-2 .card-3 p, .card-3 .card-1 p, .card-3 .card-2 p, .card-3 .card-3 p {
+  margin-top: 210px; /* Empuja el párrafo hacia la parte inferior */
+  color: white; /* Ajusta el color del texto si es necesario */
+  text-align: center;
+}
+.card-1 .card-1 p .card-1, .card-1 .card-2 p .card-1, .card-1 .card-3 p .card-1, .card-2 .card-1 p .card-1, .card-2 .card-2 p .card-1, .card-2 .card-3 p .card-1, .card-3 .card-1 p .card-1, .card-3 .card-2 p .card-1, .card-3 .card-3 p .card-1 {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+.card-1 .card-1 p .card-1 .card-2, .card-1 .card-2 p .card-1 .card-2, .card-1 .card-3 p .card-1 .card-2, .card-2 .card-1 p .card-1 .card-2, .card-2 .card-2 p .card-1 .card-2, .card-2 .card-3 p .card-1 .card-2, .card-3 .card-1 p .card-1 .card-2, .card-3 .card-2 p .card-1 .card-2, .card-3 .card-3 p .card-1 .card-2 {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e90909;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+.card-1 .card-1 p .card-1 .card-2 .card-3, .card-1 .card-2 p .card-1 .card-2 .card-3, .card-1 .card-3 p .card-1 .card-2 .card-3, .card-2 .card-1 p .card-1 .card-2 .card-3, .card-2 .card-2 p .card-1 .card-2 .card-3, .card-2 .card-3 p .card-1 .card-2 .card-3, .card-3 .card-1 p .card-1 .card-2 .card-3, .card-3 .card-2 p .card-1 .card-2 .card-3, .card-3 .card-3 p .card-1 .card-2 .card-3 {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #44fa69;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+
+/*Forma de pago*/
+.t-pago {
+  height: calc(50vh - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.t-pago .cuadros_container2 {
+  /*aca tambien estan los cuadros de Formas de envios*/
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Alinea los cuadros en la parte inferior */
+  margin-top: 50px; /* Margen superior para comenzar a bajar los cuadros */
+  /*flex-wrap automatisa que no desborde nuestro body*/
+  flex-wrap: wrap;
+}
+.t-pago .cuadros_container2 .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 500px; /* Ajusta esto al valor máximo de altura que desees */
+}
+.t-pago .cuadros_container2 .carousel-inner .carousel-inner img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  max-height: 500px; /* Asegura que las imágenes no excedan esta altura */
+  object-fit: cover; /* Recorta la imagen si es necesario para llenar el área */
+}
+
+/*Formas de envio*/
+.informacion-de-productos-p {
+  color: #fff;
+  margin-top: 270px;
+  margin-left: 2px;
+  font-size: 15px;
+  justify-content: center; /* Centra horizontalmente */
+  align-content: center; /* Centra verticalmente */
+}
+
+.contenedor-card-a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-top: 10px;
+  overflow: hidden;
+  padding-top: 50px;
+}
+.contenedor-card-a .card-a, .contenedor-card-a .card-b, .contenedor-card-a .card-c {
+  margin: 10px; /* Ajusta este margen para agregar separación entre las tarjetas */
+}
+.contenedor-card-a .card-a .card-a p, .contenedor-card-a .card-a .card-b p, .contenedor-card-a .card-a .card-c p, .contenedor-card-a .card-b .card-a p, .contenedor-card-a .card-b .card-b p, .contenedor-card-a .card-b .card-c p, .contenedor-card-a .card-c .card-a p, .contenedor-card-a .card-c .card-b p, .contenedor-card-a .card-c .card-c p {
+  margin-top: 210px; /* Empuja el párrafo hacia la parte inferior */
+  color: rgb(10, 7, 7); /* Ajusta el color del texto si es necesario */
+  text-align: center;
+  /*boca boca bocaaa*/
+}
+.contenedor-card-a .card-a .card-a p .card-a, .contenedor-card-a .card-a .card-b p .card-a, .contenedor-card-a .card-a .card-c p .card-a, .contenedor-card-a .card-b .card-a p .card-a, .contenedor-card-a .card-b .card-b p .card-a, .contenedor-card-a .card-b .card-c p .card-a, .contenedor-card-a .card-c .card-a p .card-a, .contenedor-card-a .card-c .card-b p .card-a, .contenedor-card-a .card-c .card-c p .card-a {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #78bdfa;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+.contenedor-card-a .card-a .card-a p .card-a .card-b, .contenedor-card-a .card-a .card-b p .card-a .card-b, .contenedor-card-a .card-a .card-c p .card-a .card-b, .contenedor-card-a .card-b .card-a p .card-a .card-b, .contenedor-card-a .card-b .card-b p .card-a .card-b, .contenedor-card-a .card-b .card-c p .card-a .card-b, .contenedor-card-a .card-c .card-a p .card-a .card-b, .contenedor-card-a .card-c .card-b p .card-a .card-b, .contenedor-card-a .card-c .card-c p .card-a .card-b {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #f7cf05;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
+.contenedor-card-a .card-a .card-a p .card-a .card-b .card-c, .contenedor-card-a .card-a .card-b p .card-a .card-b .card-c, .contenedor-card-a .card-a .card-c p .card-a .card-b .card-c, .contenedor-card-a .card-b .card-a p .card-a .card-b .card-c, .contenedor-card-a .card-b .card-b p .card-a .card-b .card-c, .contenedor-card-a .card-b .card-c p .card-a .card-b .card-c, .contenedor-card-a .card-c .card-a p .card-a .card-b .card-c, .contenedor-card-a .card-c .card-b p .card-a .card-b .card-c, .contenedor-card-a .card-c .card-c p .card-a .card-b .card-c {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #78bdfa;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+}
 
 /*# sourceMappingURL=style.css.map */

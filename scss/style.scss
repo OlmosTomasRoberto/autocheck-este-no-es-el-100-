@@ -1,0 +1,29 @@
+
+
+//import
+
+@import "./layout/home.scss";
+
+//menu y nav
+@import "./layout/header.scss";
+
+@import "./base/reset";
+
+//textos de encabezados
+@import "./layout/hero";
+
+//cosas de productos
+@import "./base/productos.scss";
+
+//servicios
+@import "./layout/servicios.scss";
+
+//forma de pago
+
+@import "./layout/formas-de-pago.scss";
+
+//formas de envios
+@import "./layout/formas-de-envios.scss"
+
+
+

@@ -1,0 +1,68 @@
+ /*Formas de envio*/
+ .informacion-de-productos-p{
+    color: #fff;
+    margin-top: 270px;
+    margin-left: 2px;
+    font-size: 15px;
+    justify-content: center; /* Centra horizontalmente */
+    align-content: center; /* Centra verticalmente */
+
+
+ }
+
+ .contenedor-card-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 50px;
+
+    .card-a, .card-b, .card-c {
+        margin: 10px; /* Ajusta este margen para agregar separación entre las tarjetas */
+
+        .card-a p, .card-b p, .card-c p {
+            margin-top: 210px; /* Empuja el párrafo hacia la parte inferior */
+            color: rgb(10, 7, 7); /* Ajusta el color del texto si es necesario */
+            text-align: center;
+
+            /*boca boca bocaaa*/
+
+            .card-a {
+
+                width: 190px;
+                height: 254px;
+                border-radius: 30px;
+                background: #78bdfa;
+                box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                        -15px -15px 30px rgb(60, 60, 60);
+                
+                        .card-b {
+
+                            width: 190px;
+                            height: 254px;
+                            border-radius: 30px;
+                            background: #f7cf05;
+                            box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                                      -15px -15px 30px rgb(60, 60, 60);
+                            
+                                      .card-c {
+
+                                        width: 190px;
+                                        height: 254px;
+                                        border-radius: 30px;
+                                        background: #78bdfa;
+                                        box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                                                  -15px -15px 30px rgb(60, 60, 60);
+                                        
+                                        
+                                        }
+                                        
+                            }    
+                
+                }
+            }
+        }
+  }

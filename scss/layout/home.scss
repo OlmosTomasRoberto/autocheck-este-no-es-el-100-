@@ -1,0 +1,32 @@
+.home {
+    background-color:orange;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+    .in-flex{
+        color: white;
+        flex: 1;
+        min-width: 300px;
+    
+        .in-flex:first-child{
+            flex: 2;
+            padding: 25px;
+            background-color: hsl(0, 0%, 0%);
+            margin: 20px;
+            margin-bottom: 0px;
+            border-radius: 10px;
+
+            .in-flex div{
+                padding: 25px;
+                background-color: hsl(0, 0%, 0%);
+                margin: 20px;
+                border-radius: 10px;
+            }
+
+        } 
+
+    } 
+}
